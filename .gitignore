@@ -1,0 +1,45 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Rust build output
+target/
+
+# Java / Spring Boot build output
+.gradle/
+**/build/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Test and profiling output
+*.prof
+*.test
+coverage.out
+test-results/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
